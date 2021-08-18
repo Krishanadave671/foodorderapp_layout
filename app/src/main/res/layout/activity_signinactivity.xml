@@ -156,14 +156,17 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/txtsignup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="30dp"
                     android:gravity="center"
                     android:text="want to create an account?"
                     android:textColor="#0D0000"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+
+
+                    tools:ignore="UsingOnClickInXml" />
 
             </LinearLayout>
         </ScrollView>
